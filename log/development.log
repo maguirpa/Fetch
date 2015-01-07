@@ -4524,3 +4524,9 @@ Migrating to AddUserIdToPins (20150106232140)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" DESC LIMIT 1[0m
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" DESC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" DESC LIMIT 1[0m
+  [1m[35mPin Load (1.2ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" DESC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
