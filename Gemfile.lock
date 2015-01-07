@@ -190,6 +190,7 @@ DEPENDENCIES
   devise (~> 3.4.1)
   jbuilder (~> 2.0)
   jquery-rails
+  nokogiri (~> 1.6.0)
   paperclip!
   pg
   rails (= 4.2.0)
